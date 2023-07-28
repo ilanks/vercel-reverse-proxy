@@ -4,6 +4,6 @@
     { "source": "/proxy/:match/:url*/", "destination": "https://:match/:url*/" },
     { "source": "/httpproxy/:match/:url*", "destination": "http://:match/:url*" },
     { "source": "/httpproxy/:match/:url*/", "destination": "http://:match/:url*/" },
-    { "source": "/bbb/:url*","destination": "https://www.eee.com/ccc/:url*","statusCode": 301}
+    { "source": "/bbb/:match*","destination": "https://www.baidu.com/ccc/:match*","statusCode": 301}
   ]
 }
